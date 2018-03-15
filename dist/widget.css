@@ -1,4 +1,9 @@
-.rating-widget:not(.read-only) {
-  cursor: pointer;
+.rating-widget:not(.read-only) 
+{
+    cursor: pointer;
 }
-/*# sourceMappingURL=widget.css.map */
+
+.rating-widget-item
+{
+    margin-right: 3px;
+}

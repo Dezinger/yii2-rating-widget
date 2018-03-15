@@ -1,7 +1,8 @@
 <?php
-namespace kl83\widgets\ratingwidget;
 
-class Asset extends \yii\web\AssetBundle
+namespace kl83\widgets;
+
+class RatingWidgetAsset extends \yii\web\AssetBundle
 {
     public $depends = [
         'kl83\assets\FontawesomeAsset',
@@ -11,7 +12,7 @@ class Asset extends \yii\web\AssetBundle
     public $css = [ 'widget.css' ];
     public function init()
     {
-        $this->sourcePath = __DIR__.'/../dist';
+        $this->sourcePath = __DIR__.'/dist';
         parent::init();
     }
 }
